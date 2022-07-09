@@ -369,7 +369,7 @@ def show_output(nClicks, url, start, duration, detectionCon, trackingCon):
 
         fig = angle_graph(angle_list1, angle_list2)
 
-        path = "assets/model_output/runtime/output{}.gif".format(filename)
+        path = "assets/model_runtime_output/output{}.gif".format(filename)
 
         return path, path, fig
 
