@@ -27,6 +27,7 @@ app = Dash(
     suppress_callback_exceptions=True
 )
 
+app.title = 'Posture Analyzer'
 
 # -----------------------------------------APP COMPONENTS---------------------------------------------------------------
 def angle_graph(list1, list2):
