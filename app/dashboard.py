@@ -28,6 +28,8 @@ app = Dash(
     suppress_callback_exceptions=True
 )
 
+app.title = 'Posture Analyzer'
+
 server = app.server
 
 
